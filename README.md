@@ -7,11 +7,11 @@ Be sure to check the announcement, rules and prices at [http://angularconnect.co
 
 ## Getting started
 
-Once you go through the [quick setup](http://docs.nativescript.org/angular/start/quick-setup.html) of NativeScript, the template should get you started with a sample app using the cool Clarifai API.
+Once you go through the [quick setup](http://docs.nativescript.org/angular/start/quick-setup.html) of NativeScript, the template should get you started with a sample app using the cool Clarifai API:
 
 - First launch the app generator, pointing to this template
 ```
-tns create <my-clarifai-app> --template nativescript-template-clarifai
+tns create <my-clarifai-app> --template https://github.com/Appverse/nativescript-template-clarifai
 ```
 - Launch the setup script (it will just move some files around)
 ```
@@ -25,7 +25,7 @@ app/setup.sh
 - Start hacking!
 
 ## Helpers
-You should check [Clarifai's guide](https://developer.clarifai.com/guide/).
+You should check [Clarifai's guide](https://developer.clarifai.com/guide/) to learn about the API.
 
 ## Issues
 There is a known issue ([#2733: Image gets covered with color of Page color property](https://github.com/NativeScript/NativeScript/issues/2733))
