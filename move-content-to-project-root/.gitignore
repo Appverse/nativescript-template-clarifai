@@ -1,0 +1,12 @@
+/platforms
+/typings
+/hooks
+/node_modules
+/lib
+/dist
+
+/app/**/*.map
+/app/**/*.js
+
+.DS_Store
+**/*.log

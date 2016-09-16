@@ -1,0 +1,8 @@
+<StackLayout class="api-page">
+  <TextField class="url" [text]="imageUrl" autocorrect="false" #tx (textChange)="imageUrl=tx.text"></TextField>
+  <Image #img [src]="imageUrl" (change)="console.log('change')"></Image>
+  <Progress [value]="progressValue" margin="20" *ngIf="!tags"></Progress>
+  <WrapLayout>
+    <Label class="tag" [text]="tag" *ngFor="let tag of tags"></Label>
+  </WrapLayout>
+</StackLayout>
