@@ -1,13 +1,13 @@
 {
-  "name": "nativesript-hackathon-clarifai-template",
+  "name": "nativescript-template-clarifai",
   "version": "1.0.0",
-  "description": "NativeScript Application",
+  "description": "Nativescript + Angular 2 template using Clarifai's API as an example",
   "main": "main.js",
-  "license": "SEE LICENSE IN <your-license-filename>",
+  "license": "SEE LICENSE IN LICENSE.md",
   "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
+  "repository": "https://github.com/Appverse/nativescript-template-clarifai",
   "nativescript": {
-    "id": "com.gft.nativescriptangularshowcase",
+    "id": "org.appverse.nativescriptclarifai",
     "tns-android": {
       "version": "2.4.0-next-2016-09-14-1148"
     },
@@ -44,5 +44,8 @@
     "nativescript-dev-typescript": "^0.3.2",
     "tslint": "^3.15.1",
     "typescript": "^1.8.10"
+  },
+  "android": {
+    "v8Flags": "--expose_gc"
   }
 }
