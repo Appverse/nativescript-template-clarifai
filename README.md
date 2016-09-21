@@ -16,7 +16,7 @@ tns create <my-clarifai-app> --template https://github.com/Appverse/nativescript
 - Launch the setup script (it will just move some files around)
 ```
 cd <my-clarifai-app>
-app/setup.sh
+node app/setup.js
 ```
 - [Signup](https://developer.clarifai.com/signup/) to the awesome Clarifai API
 - After registering, you should now have a __client Id__ and a __client secret__ available
