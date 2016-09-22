@@ -8,7 +8,7 @@
   "nativescript": {
     "id": "org.appverse.nativescriptclarifai",
     "tns-android": {
-      "version": "2.4.0-next-2016-09-14-1148"
+      "version": "2.3.0"
     },
     "tns-ios": {
       "version": "2.3.0"
@@ -30,7 +30,7 @@
     "querystring": "0.2.0",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
-    "tns-core-modules": "2.3.0",
+    "tns-core-modules": "next",
     "url": "0.10.3"
   },
   "devDependencies": {
