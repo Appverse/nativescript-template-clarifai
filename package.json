@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Nativescript + Angular 2 template using Clarifai's API as an example",
   "license": "SEE LICENSE IN LICENSE.md",
-  "readme": "NativeScript Application",
+  "readme": "See README.md",
   "repository": "https://github.com/Appverse/nativescript-template-clarifai",
   "nativescript": {
     "id": "org.appverse.nativescriptclarifai",

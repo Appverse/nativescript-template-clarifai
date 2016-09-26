@@ -14,5 +14,12 @@ rm('-rf', ...[
     'app/*.md'
 ]);
 
+// The dependencies installed automatically by 'tns create' are sometimes broken (@next versions), just remove them..
+rm('-rf', ...[
+    'node_modules',
+    'platforms'
+]);
+
+
 // self destroy :)
 rm('app/setup.js');
